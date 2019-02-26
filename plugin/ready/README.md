@@ -22,7 +22,7 @@ returns a 503 otherwise.
 ## Plugins
 
 Any plugin wanting to signal readiness will need to implement the `ready.Readiness` interface by
-implenting a method `Ready() bool` that returns true when the plugin is ready and false otherwise.
+implementing a method `Ready() bool` that returns true when the plugin is ready and false otherwise.
 
 ## Examples
 

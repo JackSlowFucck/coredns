@@ -1,4 +1,3 @@
-// Package ready is used to signal readiness of the CoreDNS binary (it's a process wide thing).
 package ready
 
 import (
